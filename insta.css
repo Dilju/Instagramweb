@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+#main-div{
+    width: 100%;
+    /* height: 740px; */
+    /* background-color: aqua; */
+}
+#left-div{
+    width: 16%;
+    height: 900px;
+    /* background-color: red; */
+    float: left;
+}
+#right-div{
+    width: 84%;
+    height: 900px;
+    /* background-color: yellow; */
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.label{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#left-div .label img{
+    width: 120px;
+    height: 50px;
+} 
+.buttons{
+    width: 100%;
+    height: 500px;
+    /* background-color: antiquewhite; */
+}
+#left-div .buttons ul{
+    margin-left: 20px;
+    list-style: none;
+}
+#left-div .buttons ul li i{
+    font-size: 30px;
+}
+
+#left-div .buttons ul img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.btn{
+    border: none;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 40px;
+    text-align: start;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    transition: background-color 0.15s;
+}
+.btn:hover{
+    background-color: #d8dde6;
+    cursor: pointer;
+}
+.lab{
+    margin-left: 20px;
+}
+.button-2{
+    width: 100%;
+    height: 140px;
+    /* background-color: black; */
+    padding-top: 40px;
+}
+#left-div .button-2 ul{
+    margin-left: 20px;
+    list-style: none;
+}
+#left-div .button-2 ul li i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+/*RHS section*/
+    /*story portion*/
+.story{
+    width: 66%;
+    height: 110px;
+    /* border: 1px solid black; */
+    float: left;
+}
+#right-div .story ul{
+    list-style: none;
+    display: flex;
+}
+.story-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    background: linear-gradient(to left, red, rgb(251, 190, 75));
+    padding: 3px;
+}
+.story-user{
+    margin-left: 20px;
+    text-align: center;
+}
+
+/*Post*/
+.post{
+    width: 66%;
+    height: 790px;
+    /* border: 1px solid black; */
+    padding-left: 16%;
+    float: left;
+}
+.post-info{
+    width: 70%;
+    height: 790px;
+    /* background-color: red; */
+}
+.post-title{
+    width: 100%;
+    height: 80px;
+    /* background-color: green; */
+}
+.post-pic{
+    width: 100%;
+    height: 580px;
+    /* background-color: black; */
+}
+.post-review{
+    width: 100%;
+    height: 125px;
+    /* background-color: cyan; */
+}
+.post-title-left{
+    width: 70%;
+    height: 80px;
+    /* background-color: aliceblue; */
+    float: left;
+}
+.image{
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+.detailes{
+    width: 75%;
+    height: 100%;
+    /* background-color: gray; */
+    float: left;
+}
+.post .post-info .post-title .post-title-left   .image a img{
+    width: 45px; 
+    height: 45px; 
+    border-radius: 50%;
+    margin-top: 20px; 
+    margin-left: 25px; 
+    background: linear-gradient(to left, red, rgb(241, 185, 81));
+    padding: 2px;
+}
+    
+.post-title-right{
+    width: 30%;
+    height: 80px;
+    /* background-color: aqua; */
+    float: left;
+}
+.post-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.left{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+.right{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    float:left;
+}
+.like-comment-share{
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+}
+.like-comment-share i{
+    font-size: 20px;
+    /* margin-left: 10px; */
+    margin-top: 5px;
+    transition: opacity 0.15s;
+}
+.like-comment-share .left i:hover{
+    opacity: 0.5;
+}
+.like-comment-share .right i:hover{
+    opacity: 0.5;
+}
+.description{
+    width: 100%;
+    height: 55%;
+    padding-top: 5px;
+    /* background-color: black; */
+    float: left;
+}
+.add-comment{
+    width: 100%;
+    height: 25%;
+    /* background-color: blue; */
+    float: left;
+}
+.add-comment-sec{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding-top:5px ;
+}
+.smile{
+    width: 30%;
+    height: 100%;
+    float: left;
+    /* background-color: red; */
+    font-size: 15px;
+    padding-left: 95px;
+    padding-top: 10px;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+}
+.smile:hover{
+    opacity: 0.5;
+}
+
+
+/* suggestions */
+.suggestion{
+    width: 34%;
+    height: 700px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 0px;
+}
+.profile-switch{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+
+}
+.profile-logo{
+    width: 15%;
+    height: 100%;
+    /* background-color: cyan; */
+    float: left;
+}
+.u-name{
+    width: 60%;
+    height: 70px;
+    /* background-color:  burlywood; */
+    float: left;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.switch{
+    width: 25%;
+    height: 70px;
+    /* background-color: orange; */
+    float: left;
+}
+.logo{
+    width: 70%;
+    height: 70%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+}
+.switch-follow{
+    color: #0f70f7;  
+    text-decoration: none; 
+    font-weight: bold;
+    text-align: center; 
+    line-height: 70px;
+    transition: color 0.15s;
+}
+.switch-follow:hover{
+    color: #0c328a;
+}
+.suggested-for-you{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    /* float: left; */
+}
+.suggestion-label{
+    width: 75%;
+    height: 40px;
+    /* background-color: #d8dde6; */
+    line-height: 40px;
+    padding-left: 10px;
+    float: left;
+}
+.see-all{
+    width: 25%;
+    height: 40px;
+    float: left;
+}
+.see-all-style{
+    text-decoration: none; 
+    font-weight: bold; 
+    margin-left: 25px; 
+    line-height: 40px; 
+    color: black;
+}
+.see-all-style:hover{
+    opacity: 0.5;
+}
+.bolding{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.about{
+    width: 100%;
+    height: 240px;
+    /* background-color: yellow; */
+}
